@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import DashboardNavbar from "@/components/modules/Dashboord/DashboardNavbar"
 import DashboardSidebar from "@/components/modules/Dashboord/DashboardSidebar"
 import React from "react"

@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { Toaster } from "@/components/ui/sonner";
 import QueryProviders from "@/providers/QueryProvider";
 import type { Metadata } from "next";

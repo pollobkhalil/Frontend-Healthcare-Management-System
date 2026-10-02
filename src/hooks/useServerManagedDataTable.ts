@@ -2,11 +2,11 @@
 
 
 import { PaginationState, SortingState } from "@tanstack/react-table";
-import {  ReadonlyURLSearchParams, usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState, useTransition } from "react";
 
 interface UseServerManagedDataTableParams {
-  searchParams: ReadonlyURLSearchParams;
+  searchParams: URLSearchParams;
   defaultPage?: number;
   defaultLimit?: number;
 }

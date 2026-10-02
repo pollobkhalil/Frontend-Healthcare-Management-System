@@ -8,7 +8,7 @@ import {
 } from "@/components/shared/table/DataTableFilters";
 import { useCallback, useMemo } from "react";
 import { UpdateParamsFn } from "./useServerManagedDataTable";
-import { ReadonlyURLSearchParams } from "next/navigation";
+
 
 const DEFAULT_RANGE_OPERATORS: RangeOperator[] = ["gte", "lte"];
 
@@ -61,7 +61,7 @@ export const serverManagedFilter = {
 };
 
 interface UseServerManagedDataTableFiltersParams {
-  searchParams: ReadonlyURLSearchParams;
+  searchParams: URLSearchParams;
   definitions: ServerManagedFilterDefinition[];
   updateParams: UpdateParamsFn;
 }
